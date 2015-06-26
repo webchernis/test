@@ -10,4 +10,4 @@ echo 'Hello, world!';
 
 phpinfo();
 
-/* this is comment */
+/* this is comment  */
