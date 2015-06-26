@@ -3,9 +3,5 @@
  * Created by PhpStorm.
  * User: Encoder
  * Date: 26.06.15
- * Time: 16:25
+ * Time: 16:30
  */
-
-echo 'Hello, world!';
-
-phpinfo();
