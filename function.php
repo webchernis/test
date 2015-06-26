@@ -10,3 +10,5 @@ function printName($name)
 {
     echo $name;
 }
+
+/* new comment */
