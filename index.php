@@ -6,8 +6,24 @@
  * Time: 16:25
  */
 
-echo 'Hello, world!';
+header("Content-type: text/html; charset=utf-8");
+class Article
+{
+    public $title;
+    public $text;
 
-phpinfo();
+    public function __construct($title, $text)
+    {
+        $this->title = $title;
+        $this->text = $text;
+    }
 
-/* this is comment  */
+    public function view ()
+    {
+        echo "<h1>{$this->title}</h1>";
+        echo "<div>{$this->text}</div><br />";
+    }
+}
+
+$new1 = new Article("Новая статья", "Тут полный текст статьи");
+$new1->view();
